@@ -7,6 +7,14 @@
   font-style: normal;
 }
 
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /*shared styles*/
 .blue{
     
@@ -109,4 +117,35 @@ margin: 58px 149px 58px 151px;
 
 border-radius: 48px;
 
+}
+/*JProductive Users*/
+.user{
+
+    background-color: rgba(78,71,255,0.1);
+    padding: 50px 142px;
+    margin-top: 116px;
+    border-radius: 24px;
+}
+.user-title{
+    text-align: center;
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+     margin-bottom: 16px;
+}
+.user-items{
+
+    display: flex;
+    justify-content: space-around;
+}
+.user-item{
+
+    
+}
+.user-item-title{
+
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 84px;
+   
 }
