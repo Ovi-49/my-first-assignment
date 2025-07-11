@@ -33,10 +33,17 @@
    
 }
 
+.primary-button:active{
+
+    background-color:aqua;
+}
+
 header{
 
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
+    
+   
 }
 
 /*nav styles*/
@@ -67,7 +74,7 @@ nav ul li{
 .banner-content{
 
  text-align: center;
- padding: 309px 267px 152px 267px;
+ padding: 309px 267.5px 152px 267.5px;
  
 }
 .banner-description{
@@ -80,10 +87,18 @@ nav ul li{
 /*Main Styles*/
 
 main{
+margin: 0px;
+    background-color: rgba(70,130,180,0.08);
+   border: 1px solid rgba(236, 218, 218, 0.807);
+}
 
-margin: 58px 149px 58px 151px;
+.main-border{
+
+margin: 0px 149px 0px 151px;
+ 
 
 }
+
 
 /* Action Styles*/
 
@@ -91,6 +106,7 @@ margin: 58px 149px 58px 151px;
 
     display: flex;
     justify-content: space-around;
+    margin: 116px;
 }
 .action-content{
 
@@ -118,12 +134,12 @@ margin: 58px 149px 58px 151px;
 border-radius: 48px;
 
 }
-/*JProductive Users*/
+/*Productive Users*/
 .user{
 
     background-color: rgba(78,71,255,0.1);
     padding: 50px 142px;
-    margin-top: 116px;
+   margin-bottom: 156px;
     border-radius: 24px;
 }
 .user-title{
@@ -137,6 +153,7 @@ border-radius: 48px;
 
     display: flex;
     justify-content: space-around;
+    gap:20px
 }
 .user-item{
 
@@ -148,4 +165,161 @@ border-radius: 48px;
     font-weight: bold;
     font-size: 84px;
    
+}
+
+/* Let’s Get in Touch */
+
+
+.tuch {
+ 
+  margin: 0;
+  padding: 0;
+  margin-bottom: 14px;
+}
+
+.information {
+  display: flex;
+  justify-content:space-between;
+  padding-top: 100px;
+ 
+  gap: 50px;
+  background-color:#FFFFFF;
+}
+
+.form-title h1 {
+  font-size: 97px;
+  font-weight: bold;
+
+  color: #000000;
+  
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 497px;
+  height: 490px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 19px;
+  border: 1px solid rgb(73, 67, 67);
+  border-radius: 6px;
+  font-size: 20px;
+  
+}
+
+
+
+
+
+
+
+/* Last Styles*/
+.last{
+background-size: cover;
+    background-color: #e9d8d8 ;
+   background-color:rgba(255,255,255,0.5);
+
+    text-align:center;
+    padding: 104px 455px 103px 454px;
+}
+.last-title{
+
+color:#4E47FF;
+font-size: 100px;
+font-weight: bolder;
+
+}
+
+.last-description{
+
+    color: #8987A1;
+    font-size: ;
+}
+.last-element{
+
+display: flex;
+justify-content: space-around;
+color: #8987A1;
+}
+
+/* challange Styles*/
+.user-says{
+
+   
+}
+
+.user-say-title{
+
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.user-say-content{
+
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    
+}
+.user-content-card{
+padding-left: 24px;
+border-radius: 14px;
+background-color:  #FFFFFF;
+box-shadow: #8987A1;
+margin-bottom: 137px;
+
+}
+
+.user-content-card-star{
+
+  padding: 24px 226px 24px 0px;  
+}
+
+.user-content-card-title{
+
+margin-bottom: 24px;
+font-size: 24px;
+font-weight: bold;
+
+}
+
+.user-content-card-sub-title{
+
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+.user-content-card-description{
+
+
+    display: flex;
+    gap: 6px;
+    margin-bottom: 24px;
+}
+.user-content-card-description-name{
+
+    font-size: 16px;
+
+}
+
+.user-content-card-description-date{
+
+    color: grey;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 2px;
+}
+.user-content-card-description-image{
+
+    border-radius: 100%;
 }
